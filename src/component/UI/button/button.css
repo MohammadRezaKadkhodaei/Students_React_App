@@ -1,0 +1,15 @@
+.Button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Danger{
+    background-color: red;
+}
+
+.Success{
+    background-color: green;
+}

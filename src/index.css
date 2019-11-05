@@ -1,0 +1,56 @@
+@font-face{
+  font-family: 'vazir';
+  font-style: normal;
+  src: url('./assets/fonts/Vazir.ttf') format('truetype'),
+       url('./assets/fonts/Vazir.woff') format('woff');
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'vazir';
+  direction: rtl;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+button,input{
+  font-family: 'vazir';
+}
+
+.alignCenter{
+  text-align: center;
+}
+
+.mV20{
+  margin: 20px 0;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}

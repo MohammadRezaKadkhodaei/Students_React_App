@@ -1,0 +1,15 @@
+.MenuItem{
+    margin-right: 10px
+}
+.MenuItem a{
+    text-decoration: none;
+    color: orangered;
+    cursor: pointer;
+}
+
+a:hover,
+a:active,
+a.active{
+    cursor: pointer;
+    color: black;
+}
