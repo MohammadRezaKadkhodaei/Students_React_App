@@ -3,7 +3,7 @@
 }
 .MenuItem a{
     text-decoration: none;
-    color: orangered;
+    color: gray;
     cursor: pointer;
 }
 
@@ -11,5 +11,5 @@ a:hover,
 a:active,
 a.active{
     cursor: pointer;
-    color: black;
+    color: orangered;
 }

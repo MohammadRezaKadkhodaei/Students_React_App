@@ -4,7 +4,7 @@ import './MenuItems.css';
 const MenuItems = () =>{
     return(
         <ul className="MenuItems">
-           <MenuItem link="/" active>صفحه اصلی</MenuItem>
+           <MenuItem link="/">صفحه اصلی</MenuItem>
            <MenuItem link="/add-student">دانش‌ آموزان</MenuItem>
         </ul>
     )

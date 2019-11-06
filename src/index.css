@@ -33,6 +33,14 @@ button,input{
   margin: 20px 0;
 }
 
+.mT50{
+  margin-top: 50px;
+}
+
+.mR10{
+  margin-right: 10px;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;

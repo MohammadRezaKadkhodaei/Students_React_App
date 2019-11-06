@@ -1,22 +1,20 @@
 import React from 'react';
 import Button from '../../UI/button/button';
+import {Link} from 'react-router-dom';
 import './students.css';
 
 const Student = (props) => {
     return(
         <div className="students">
             <label>شماره دانش آموزی: {props.id}</label>
-            <label>نام دانش آموز</label>
-            <input type="text" value={props.name} onChange={props.nameChanged}/>
+            <label>نام دانش آموز: {props.name}</label>
+            
 
-            <label>کلاس</label>
-            <input type="number" value={props.classNumber}/>
+            <label> کلاس : {props.classNumber}</label>
 
-            <label>شماره تلفن</label>
-            <input type="number" value={props.phoneNumber}/>
+            <label> شماره تلفن : {props.phoneNumber}</label>
 
-            <label>ایمیل</label>
-            <input type="email" value={props.email}/>
+            <label> ایمیل : {props.email}</label>
             <br/>
             <div className="mT10">
             <Button
@@ -25,6 +23,15 @@ const Student = (props) => {
                 >
                 حذف
             </Button>
+            <span className="mR10">
+                <Link to={"/student/"+ props.id}>
+                    <Button
+                        btnType="Success"
+                        >
+                        ویرایش
+                </Button>
+                </Link>
+            </span>
             </div>
         </div>
     )

@@ -2,9 +2,9 @@ import React from 'react';
 import './newStudent.css';
 import Button from '../../UI/button/button'
 const NewStudent = (props) =>{
-    const {studentName, studentClass, studentPhoneNumber, studentEmail} = props;
-    const {studentNameHandler, studentClassHandler, studentPhoneNumberHandler, studentEmailHandler} = props;
-
+    const {studentName, studentClass, studentPhoneNumber,
+         studentEmail ,studentNameHandler, studentClassHandler,
+          studentPhoneNumberHandler, studentEmailHandler} = props;
     return(
         <div className="newStudent">
             <h1>اضافه کردن دانش آموز</h1>
